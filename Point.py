@@ -3,3 +3,8 @@ class Point:
         self._x = x
         self._y = y
 
+class Circle:
+    def __init__(self, rad):
+        self.radius = rad
+
+
